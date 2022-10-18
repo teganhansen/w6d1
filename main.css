@@ -1,0 +1,74 @@
+body, div, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding: 10px 200px; 
+    background-color: #eee;
+  }
+  
+.contentContainer {
+    text-align: center;
+    margin-right: 400px;
+    padding-right: 60px;
+}
+h1 {
+    
+    font-size: 40px;
+    justify-content: center;
+}
+h2 {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+}
+.inStock {
+    padding: 5px;
+    margin: 10px 0;
+    font-family: Helvetica; 
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    
+    border-radius: 5px;
+  }
+
+  #underLine {
+    border: 1px solid;
+    width: 60px;
+  }
+
+/* // button */
+ 
+  
+  #clickMe {
+    display: inline-block;
+    padding:10px;
+    font-family: Helvetica;
+    border:1px solid ;
+    border-radius: 5px;
+  }
+  
+  #clickMe:hover {
+    cursor: pointer;
+  }
+  
+  
+  .darkModeBG {
+    background-color: rgb(37, 37, 37);
+  }
+  
+  .darkMode1 {
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  .darkMode{
+    background: rgb(73, 73, 73);
+    border: 1px solid rgb(163, 163, 163);
+    
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+  }
